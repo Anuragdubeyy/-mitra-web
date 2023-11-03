@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #49dd49;
+    --primary: #23AA49;
     --secondary: #F65005;
     --light: #F7F8FC;
     --dark: #111111;
@@ -185,13 +185,22 @@
     border-radius: 3rem;
 }
 
-@media (max-width:850px){
+.carousel-caption .title .content1{
+    color: white;
+    font-size: 35px;
+}
+
+.carousel-inner img{
+    margin-top: 3rem;
+}
+
+@media (min-width:850px){
     .carousel-caption .title{
         margin-bottom: 150px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
@@ -212,17 +221,44 @@
 
 @media (max-width: 450px){
     .carousel-caption .title{
-        margin-bottom: 50px;
+        margin-bottom: 4rem;
         padding: 0px;
         margin-left: 0px;
+        font-size: 2rem;
+        
         
     }
+
+    .mb-5{
+        margin-bottom: 1rem !important;
+        
+        
+    }
+
+    .carousel-caption .title .content1{
+        font-size: 23px;
+        margin-left: 1rem;
+        
+    }
+    
+
+    
 }
+
+/* @media(min-width: 390px){
+    
+    
+    
+    
+    
+
+    
+} */
 
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/shopkeeper7.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -271,6 +307,13 @@
 .about-img img {
     position: relative;
     z-index: 2;
+}
+
+@media(max-width: 450px){
+    .p-5{
+        padding: 0rem !important;
+    }
+
 }
 
 /* .about-img::before {
@@ -426,7 +469,7 @@ li a{
 }
 
 footer a.active{
-    color: #49dd49;
+    color: #23AA49;
 }
 
 
