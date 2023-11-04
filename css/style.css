@@ -221,7 +221,7 @@
 
 @media (max-width: 450px){
     .carousel-caption .title{
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         padding: 0px;
         margin-left: 0px;
         font-size: 2rem;
@@ -243,6 +243,10 @@
 
     .carousel-inner img{
         margin-top: 3rem;
+    }
+
+    .page-header {
+        padding-top: 12rem;
     }
 
 
@@ -318,7 +322,20 @@
         padding: 0rem !important;
     }
 
+    .container{
+        margin-bottom: 4rem;    }
+
+    .text-body{
+        color: white !important;
+    }
+
+    .container .p-5{
+        padding: 1rem !important;
+    }
+
 }
+
+
 
 /* .about-img::before {
     position: absolute;
