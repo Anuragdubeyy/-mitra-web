@@ -248,6 +248,12 @@
     .page-header {
         padding-top: 12rem;
     }
+    .py-5{
+        padding-bottom: 0.1rem !important;
+
+    }
+
+    
 
 
     
@@ -548,6 +554,18 @@ footer a.active{
 .pri-definition h4{
     font-weight: 540;
     
+}
+
+@media(max-width: 450px){
+    .privacy .head-pri {
+        
+        margin-left: 12px;
+    }
+
+    .pri-definition{
+        margin-left: 12px;
+        
+    }
 }
 
 /* Privacy Policy End */
